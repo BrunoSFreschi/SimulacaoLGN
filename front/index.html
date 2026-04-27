@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador - Lei dos Grandes Números</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Simulador: Lei dos Grandes Números</h1>
+        <p>Simulação de cara (1) ou coroa (0). O valor esperado é <strong>0.5</strong>.</p>
+
+        <div class="controls">
+            <input type="number" id="trialsInput" placeholder="Nº de tentativas (ex: 1000)" min="1">
+            <button id="startButton">Iniciar Simulação</button>
+            <button id="resetButton">Resetar</button>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="lgnChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
