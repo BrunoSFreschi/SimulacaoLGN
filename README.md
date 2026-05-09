@@ -1,8 +1,8 @@
-# Simulação da Lei dos Grandes Números em C#
+# Simulação da Lei dos Grandes Números
 
 ## Descrição
 
-Este projeto é uma aplicação de console em C# que demonstra, de forma prática, a **Lei dos Grandes Números**.
+Este projeto é uma aplicação que demonstra, de forma prática, a **Lei dos Grandes Números**.
 
 A simulação consiste em lançar uma moeda virtual repetidamente e acompanhar a proporção de resultados (caras e coroas) ao longo do tempo. Conforme o número de tentativas aumenta, a proporção observada converge para o valor esperado teórico (50%).
 
@@ -102,20 +102,6 @@ Deseja executar novamente? (S/N):
 
 ---
 
-## Estrutura do código
-
-O fluxo da aplicação segue os seguintes passos:
-
-1. Leitura da entrada do usuário
-2. Inicialização dos contadores
-3. Execução da simulação com geração de números aleatórios
-4. Atualização da média acumulada
-5. Exibição de resultados intermediários
-6. Exibição do resultado final
-7. Controle de repetição via loop
-
----
-
 ## Limitações
 
 * A simulação assume uma moeda justa (probabilidade de 50%)
@@ -124,13 +110,6 @@ O fluxo da aplicação segue os seguintes passos:
 
 ---
 
-## Possíveis melhorias
-
-* Exportação dos resultados para CSV
-* Geração de gráfico de convergência
-* Execução de múltiplas simulações (Monte Carlo)
-* Interface gráfica (desktop ou web)
-* Separação em camadas (domínio, aplicação, apresentação)
 
 ---
 
